@@ -18,7 +18,6 @@ def Day1A():
 def Day1B():
     with open('Input/1A.txt') as f:
         lines = f.readlines()
-        
         count = 0
         
         for i in range(0, len(lines)-3):
